@@ -45,4 +45,6 @@ form.addEventListener("submit", function (event) {
     // Display validation error 
     alert("Please fill out all fields.");
   }
+
+  
 });
