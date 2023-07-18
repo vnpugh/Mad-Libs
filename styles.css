@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Martel&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lilita One;
+}
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.container {
+   background-color: #8d8d8d;
+   color: #edf2f4;
+   padding: 2em;
+   width: 85%;
+   margin: 0 auto;
+}
+
+.submit {
+    border: none;
+    background-color: blue;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+    transition: 0.4s ease;
+ }
+
+ .submit:hover {
+    background-color: greenyellow;
+    color: #edf2f4;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+ }
